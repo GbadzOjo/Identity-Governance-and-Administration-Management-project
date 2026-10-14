@@ -1,6 +1,8 @@
 Identity Governance & Administration (IGA)
 This project focuses on Identity Governance and Administration (IGA) using Microsoft Entra ID, demonstrating how to manage the employee identity lifecycle, including onboarding new employees, updating access permissions as they move between teams, and revoking access when they leave the organization.
 
+Part 1: Designing the Automated JML Lifecycle Workflow
+
 
 The Joiner (Onboarding): Provision new hires and contractors securely, grant appropriate role-based access, and enforce security policies from the outset without manual IT tickets.
 
@@ -18,6 +20,20 @@ The Joiner (Onboarding): Provision new hires and contractors securely, grant app
 •	Action Taken: Identity provider re-evaluates the employee's permissions to fit the new role, eliminating permission creep as the employee transitions into the new role.
 
 •	System of Record: Workday 
+
+
+Part2: Access Certification & Audit Campaign
+
+
+User Account	Role / Department	Last Login Activity	Active Entitlements / Groups	Compliance Violation / Risk Identified	Action Required (Certify / Modify / Revoke) & Justification
+j.doe@omnicorp.com	Marketing Manager	2 days ago	Marketing-All, Jira-Users, Prod-Database-Admin	Multiple role-based access identified.
+Marketing manager shouldn’t be a Prod Database admin	Modify access to reflect employees current position.
+c.smith@contractor.io	External Developer	145 days ago	GitHub-Core, AWS-Dev-Access		Revoke. All active sessions should be killed
+a.jones@omnicorp.com	Former SysAdmin (Terminated)	180 days ago	Global-Tenant-Admin, Domain-Controllers	Possibly a disgruntled employee who could be an insider threat. Possible data exfiltration	Revoke. All active sessions should be killed.
+Audit should be performed to ascertain former employees activity in the past 180 days.
+m.chen@omnicorp.com	Transfer: Sales  Finance	Today	Sales-CRM-Full, Finance-Billing-System	Multiple Role-based access identified. Employees former department permission should be removed to reflect their new role	Modify
+
+
 
 
 
