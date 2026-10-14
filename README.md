@@ -4,7 +4,8 @@ This project focuses on Identity Governance and Administration (IGA) using Micro
 
 **Part 1: Designing the Automated JML Lifecycle Workflow**
 
-1. The Joiner (Onboarding): Provision new hires and contractors securely, grant appropriate role-based access, and enforce security policies from the outset without manual IT tickets.
+1.** The Joiner (Onboarding)**: 
+Provision new hires and contractors securely, grant appropriate role-based access, and enforce security policies from the outset without manual IT tickets.
 
 •	Trigger Source: HR inputs the new employee’s basic details, employment type (employee vs. contractor), department, manager, and confirmed start date into Workday.
 
@@ -13,7 +14,7 @@ This project focuses on Identity Governance and Administration (IGA) using Micro
 •	System of Record: Workday 
 
 
-2. The Mover (Internal Transfer)
+2. **The Mover (Internal Transfer)**
    
 •	Trigger Source: HR updates the employee's department or role in Workday.
 
@@ -22,7 +23,7 @@ This project focuses on Identity Governance and Administration (IGA) using Micro
 •	System of Record: Workday 
 
 
-3. The Leaver (Offboarding)
+3.** The Leaver (Offboarding)**
    
 •	Trigger Source: HR logs an effective termination date, contract expiration date, or immediate termination status in Workday.
 
@@ -53,7 +54,7 @@ The hands-on lab implements identity governance administration by  building a gr
 <img width="1134" height="736" alt="Screenshot 2026-10-13 202945" src="https://github.com/user-attachments/assets/69740d0e-d551-40a8-9dba-6cb44c3d2c8c" />
 
  
-**Step 2** Created a user  **contractor.test ** and added the contractor to the previously created group
+**Step 2** Created a user  **contractor.test ** and added the contractor to the previously created Secuirity group
 
 
 <img width="1350" height="721" alt="Screenshot 2026-10-13 203222" src="https://github.com/user-attachments/assets/e9a25911-430a-41db-8218-bb5b19866192" />
