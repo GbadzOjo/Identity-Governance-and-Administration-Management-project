@@ -41,3 +41,37 @@ An access audit was performed on 4 high-risk profiles to  identify compliance or
 
 
 
+**Part 3: Identity Governance Hands-on using Entra ID**
+The hands-on lab implements identity governance administration by  building a group-based lifecycle structure, provisioning a test contractor, assigning group-based permissions, and executing an instant offboarding kill switch.
+
+**Step 1** created a security group in Entra ID named **SG-Temporary-Contractors**.
+<img width="1134" height="736" alt="Screenshot 2026-10-13 202945" src="https://github.com/user-attachments/assets/69740d0e-d551-40a8-9dba-6cb44c3d2c8c" />
+ 
+**Step 2** Created a user  **contractor.test ** and added the contractor to the previously created group
+
+<img width="1350" height="721" alt="Screenshot 2026-10-13 203222" src="https://github.com/user-attachments/assets/e9a25911-430a-41db-8218-bb5b19866192" />
+
+
+<img width="1350" height="721" alt="Screenshot 2026-10-13 203222" src="https://github.com/user-attachments/assets/0fe71cb1-6135-4ad3-8d26-a975e20b831b" />
+
+**Step 3** Created a Group-Based Resource Access (Salesforce app)
+
+<img width="1023" height="669" alt="Screenshot 2026-10-13 204901" src="https://github.com/user-attachments/assets/0c624233-a629-4ea5-b93e-7f3d12efa8c3" />
+
+
+**Step 4:** Executing the Instant Offboarding (The Leaver / Kill-Switch). The contractor's login was disabled 
+
+<img width="1322" height="739" alt="Screenshot 2026-10-13 211458" src="https://github.com/user-attachments/assets/8f4060e4-2c2b-4831-8f82-647a962e9654" />
+
+
+
+
+
+
+
+
+
+
+
+
+
