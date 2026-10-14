@@ -69,6 +69,9 @@ The hands-on lab implements identity governance administration by  building a gr
 
 
 
+
+
+
 **Step 4:** Executing the Instant Offboarding (The Leaver / Kill-Switch). The contractor's login was disabled 
 
 <img width="1322" height="739" alt="Screenshot 2026-10-13 211458" src="https://github.com/user-attachments/assets/8f4060e4-2c2b-4831-8f82-647a962e9654" />
