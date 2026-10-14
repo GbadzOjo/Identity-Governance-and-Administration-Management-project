@@ -22,24 +22,24 @@ The Joiner (Onboarding): Provision new hires and contractors securely, grant app
 •	System of Record: Workday 
 
 
-Part2: Access Certification & Audit Campaign
-
-
-User Account	Role / Department	Last Login Activity	Active Entitlements / Groups	Compliance Violation / Risk Identified	Action Required (Certify / Modify / Revoke) & Justification
-j.doe@omnicorp.com	Marketing Manager	2 days ago	Marketing-All, Jira-Users, Prod-Database-Admin	Multiple role-based access identified.
-Marketing manager shouldn’t be a Prod Database admin	Modify access to reflect employees current position.
-c.smith@contractor.io	External Developer	145 days ago	GitHub-Core, AWS-Dev-Access		Revoke. All active sessions should be killed
-a.jones@omnicorp.com	Former SysAdmin (Terminated)	180 days ago	Global-Tenant-Admin, Domain-Controllers	Possibly a disgruntled employee who could be an insider threat. Possible data exfiltration	Revoke. All active sessions should be killed.
-Audit should be performed to ascertain former employees activity in the past 180 days.
-m.chen@omnicorp.com	Transfer: Sales  Finance	Today	Sales-CRM-Full, Finance-Billing-System	Multiple Role-based access identified. Employees former department permission should be removed to reflect their new role	Modify
-
-
-
-
-
 4. The Leaver (Offboarding)
 •	Trigger Source: HR logs an effective termination date, contract expiration date, or immediate termination status in Workday.
 
 •	Action Taken: An automated offboarding workflow executes an instant kill-switch. The user account status in the IdP is moved from "Active" to "Disabled/Blocked." All open sessions and logins are revoked across all platforms
 
 •	System of Record: Workday 
+
+
+
+Part2: Access Certification & Audit Campaign
+
+An access audit was performed on 4 high-risk profiles to  identify compliance or security violations and decide whether to Certify (Keep), Modify (Restrict), or Revoke (Terminate) access.
+
+<img width="1081" height="651" alt="Screenshot 2026-10-13 220257" src="https://github.com/user-attachments/assets/e25cfb91-20ee-44b4-99e0-7b76cb3a5b1d" />
+
+
+
+<img width="1054" height="546" alt="Screenshot 2026-10-13 220312" src="https://github.com/user-attachments/assets/a289d190-eb36-4d56-ab1a-22291ed6b5b9" />
+
+
+
